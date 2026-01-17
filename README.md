@@ -2,6 +2,7 @@ import React from 'react'
 
 const git = () => {
 return (
+
 <div>
 
 {/\* _to create new branch: _/}
@@ -62,6 +63,7 @@ conflict show garxa and k k lie add garxa tyo line hatauni .now button and dropd
 
 -git reset commitHashPaste
 -git reset --hard commit hash // github ma matra haina vs code ma ni change hunxa
+
 </div>
 )
 }
