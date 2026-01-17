@@ -3,19 +3,19 @@ import React from 'react'
 const git = () => {
 return (
 <div>
-{/_ to rename branch: _/}
 
+{/\* _to create new branch: _/}
+-git branch branchname
+
+{/\* _ to switch branch : _/}
+-git checkout branchname
+
+{/_ to rename branch: _/}
 - git branch -M rename
   -git push -u origin main
 
 {/_ when u rename master branch to main ,github web ma chai master rename hunna but there will be 2 branches main and master(default) _/}
 {/_ change default to main and delete master _/}
-
-{/\* _to create new branch: _/}
--git checkout -b branchname
-
-{/\* _ to switch branch : _/}
--git checkout branchname
 
 {/\* _ to delete branch: _/}
 -git branch -d branchname (branch delete garna xa vani next branch ma gayera balla delete garni. tei branch ma basera tei branch del hunnna)
